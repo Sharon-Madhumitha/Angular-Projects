@@ -1,0 +1,195 @@
+cd ..
+ng new cstprj2
+css
+n
+ng generate component faculty
+ng generate component parent
+ng generate component student
+
+
+faculty.component.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+    <h1>
+      HI! I'M <span class="highlight">Sharon Madhumitha</span>
+    </h1>
+    <p>FRESHER KURNOOL,INDIA</p>
+  </header>
+</body>
+</html>
+
+
+
+
+faculty.component.css
+
+
+
+faculty {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  
+  .name {
+    color: #00c8ff;
+  }
+  
+  .subtitle {
+    font-weight: 300;
+    margin-top: 8px;
+  }
+  
+  .btn-faculty {
+    margin-top: 15px;
+    background: #00c8ff;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+
+
+faculty.component.ts
+
+
+
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-faculty',
+  standalone: true,
+  imports: [],
+  templateUrl: './faculty.component.html',
+  styleUrl: './faculty.component.css'
+})
+export class FacultyComponent {
+
+}
+
+
+
+
+parent.component.html
+
+
+
+<div class="description">
+    <img  src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt134818d279038650/6668df6434f6fb5cd48aac34/beautiful-flowers-rose.jpeg?q=70&width=3840&auto=webp" width="150" height="150"  alt="Sharon Madhumitha">
+    <section className="parent">
+        <h2>PERSONAL INFORMATION</h2>
+        <ul>
+          <li><strong>Name:</strong>Sharon Madhumitha</li>
+          <li><strong>Age:</strong> 20 years</li>
+          <li><strong>Phone:</strong> 1234567898</li>
+          <li><strong>Email:</strong>229x1a2822.ac.in</li>
+          <li><strong>Address:</strong> Kurnool,India</li>
+        </ul>
+        <div className="social-icons">
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-google"></i>
+          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-pinterest-p"></i>
+        </div>
+      </section>
+  </div>
+
+
+parent.component.ts
+
+
+
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-parent',
+  standalone: true,
+  imports: [],
+  templateUrl: './parent.component.html',
+  styleUrl: './parent.component.css'
+})
+export class ParentComponent {
+
+}
+
+
+
+
+student.component,html
+
+
+<section class="academic">
+    <h2>MY STORY</h2>
+    <p>
+        Seeking a junior developer role where I can utilize my coding skills and contribute to innovative solutions, 
+        while developing my expertise in [specific area].
+    </p>
+    <button class="btn-download">DOWNLOAD RESUME</button>
+  </section>
+
+
+
+student.component.css
+
+
+student {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .student h2 {
+    color: #00c8ff;
+    margin-bottom: 15px;
+  }
+  
+  .student p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+  }
+  
+  .btn-download {
+    margin-top: 20px;
+    background: #00c8ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+
+
+
+student.component.ts
+
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-student',
+  standalone: true,
+  imports: [],
+  templateUrl: './student.component.html',
+  styleUrl: './student.component.css'
+})
+export class StudentComponent {
+
+}
