@@ -98,7 +98,3 @@ This repository demonstrates:
   Contributions
 
 Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
-
-  
-
-This format looks professional on GitHub, is recruiter-friendly, and is suitable if you're maintaining a repository containing multiple Angular projects.
