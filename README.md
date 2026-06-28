@@ -1,15 +1,13 @@
-Here's a professional and ATS-friendly **README.md** template you can use for an Angular projects repository.
 
-````markdown
-# Angular Projects 🚀
+# Angular Projects 
 
 A collection of Angular projects developed to explore modern web development concepts, responsive UI design, API integration, and component-based architecture.
 
-## 📌 About
+##  About
 
 This repository contains multiple Angular applications built using industry-standard development practices. The projects demonstrate frontend development skills, reusable components, routing, state management, REST API integration, and responsive design.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Angular
 - TypeScript
@@ -20,7 +18,7 @@ This repository contains multiple Angular applications built using industry-stan
 - REST APIs
 - Git & GitHub
 
-## 📂 Projects Included
+##  Projects Included
 
 - Authentication System
 - Dashboard Application
@@ -33,7 +31,7 @@ This repository contains multiple Angular applications built using industry-stan
 - Portfolio Website
 - API Integration Projects
 
-## ✨ Features
+##  Features
 
 - Responsive User Interface
 - Component-Based Architecture
@@ -48,7 +46,7 @@ This repository contains multiple Angular applications built using industry-stan
 - State Management
 - Error Handling
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Angular-Projects/
